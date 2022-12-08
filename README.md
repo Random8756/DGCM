@@ -20,7 +20,7 @@ Install Python packages:
 pip install -r requirements.txt
 ```
 
-##Run an experiment
+## Run an experiment
 
 ```shell
 python3 src/main.py --config=dgcm --env-config=sc2 with env_args.map_name=5m_vs_6m
