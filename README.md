@@ -26,7 +26,7 @@ Install Python packages:
 pip install -r requirements.txt
 ```
 
-**NOTE**: Before you run an DGCM-based experiment, please first modify the `starcraft.py` file to enable an `adjacency matrix` function. An example is provide in `adj_matrix.py` file, you can copy it to `starcraft.py` file or write a function by yourself. 
+**NOTE**: Before you run a DGCM-based experiment, please first modify the `starcraft.py` file to enable an `adjacency matrix` function. An example is provide in `adj_matrix.py` file, you can copy it to `starcraft.py` file or write a function by yourself. 
 
 
 ## Run an experiment
