@@ -2,7 +2,7 @@
 
 This is the implementation of the paper "Dynamic Graph-based Communication Mechanism for Value Factorization Multi-Agent Learning"
 
-This implementation is written in PyTorch and is based on PyMARL and SMAC.
+This implementation is written in PyTorch and is based on [PyMARL](https://github.com/oxwhirl/pymarl), [PyMARL2](https://github.com/hijkzzz/pymarl2) and [SMAC](https://github.com/oxwhirl/smac).
 
 ## Installation instructions
 
@@ -14,11 +14,20 @@ bash install_sc2.sh
 
 This will download SC2 (4.10) into the 3rdparty folder and copy the maps necessary to run over.
 
+```diff
+- Please pay attention to the version of SC2 you are using for your experiments. 
+- Performance is *not* always comparable between versions. 
+- The results in the paper use SC2.4.10.
+```
+
 Install Python packages:
 
 ```shell
 pip install -r requirements.txt
 ```
+
+**NOTE**: Before you run an DGCM-based experiment, please first modify the `starcraft.py` file to enable an `adjacency matrix` function. An example is provide in `adj_matrix.py` file, you can copy it to `starcraft.py` file or write a 
+
 
 ## Run an experiment
 
