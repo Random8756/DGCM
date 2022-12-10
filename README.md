@@ -28,6 +28,8 @@ pip install -r requirements.txt
 
 **NOTE**: Before you run a DGCM-based experiment, please first modify the `starcraft.py` file to enable an `adjacency matrix` function. An example is provide in `adj_matrix.py` file, you can copy it to `starcraft.py` file or write a function by yourself. 
 
+The hyperparameter settings are provided in `algorithm_name.yaml` and some random seeds we used are also provided. More results will be released after the author notification date of AAMAS2023 according to conference rules. 
+
 
 ## Run an experiment
 
