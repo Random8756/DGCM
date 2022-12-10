@@ -46,3 +46,9 @@ per_beta: 0.4
 return_priority: False
 
 name: "qmix_env=8_adam_td_lambda"
+
+# some random seeds for our experiments:
+# 5m_vs_6m: 666560572, 540799184,691424648.
+# 3s5z_vs_3s6z: 910784836,229474191,294247550.
+# 3s_vs_5z: 600052801,823088330,779773132.
+# 2c_vs_64zg: 466827599,294256563,374420871.
